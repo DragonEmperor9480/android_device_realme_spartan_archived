@@ -12,9 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/spartan/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_spartan
+PRODUCT_NAME := bootleg_spartan
 PRODUCT_DEVICE := spartan
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
@@ -28,23 +28,14 @@ TARGET_ENABLE_BLUR := true
 TARGET_EXCLUDES_AUDIOFX := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
-
-# GAPPS
-WITH_GMS := true
-BUILD_GOOGLE_CONTACTS := true
-BUILD_GOOGLE_DIALER := true
-BUILD_GOOGLE_MESSAGE := true
+EXTRA_UDFPS_ANIMATIONS := true
 
 # Debugging
 TARGET_INCLUDE_MATLOG := false
 TARGET_DEFAULT_ADB_ENABLED := true
 
-#Matrixx Maintainer Info
-MATRIXX_MAINTAINER := Amrutesh
-MATRIXX_CHIPSET := Snapdragon®870
-MATRIXX_BATTERY := 5000mAh
-MATRIXX_DISPLAY := 2400x1080
-EXTRA_UDFPS_ANIMATIONS := true
+# Maintainer
+DEVICE_MAINTAINERS := "Amrutesh"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
