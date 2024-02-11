@@ -131,7 +131,7 @@ BOARD_RAMDISK_USE_LZ4 := true
 TARGET_KERNEL_ADDITIONAL_FLAGS += NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip
 TARGET_KERNEL_SOURCE := kernel/realme/sm8250
 TARGET_KERNEL_CONFIG :=  vendor/sm8250_defconfig
-KERNEL_CUSTOM_LLVM := true
+KERNEL_FULL_LLVM := true
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
