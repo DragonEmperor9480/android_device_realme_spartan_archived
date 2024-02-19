@@ -2600,7 +2600,7 @@
     </path>
 
     <path name="speaker-mono">
-        <ctl name="TFA_CHIP_SELECTOR" value="1" />
+        <ctl name="TFA_CHIP_SELECTOR" value="2" />
         <ctl name="TFA Profile" value="speaker" />
     </path>
 
@@ -2667,12 +2667,12 @@
         <ctl name="TX SMIC MUX0" value="ADC3" />
         <ctl name="TX_AIF1_CAP Mixer DEC0" value="1" />
         <ctl name="ADC4_MIXER Switch" value="1" />
-        <ctl name="ADC4 Volume" value="8" />
+        <ctl name="ADC4 Volume" value="20" />
         <ctl name="TX DEC1 MUX" value="SWR_MIC" />
         <ctl name="TX SMIC MUX1" value="ADC0" />
         <ctl name="TX_AIF1_CAP Mixer DEC1" value="1" />
         <ctl name="ADC1_MIXER Switch" value="1" />
-        <ctl name="ADC1 Volume" value="8" />
+        <ctl name="ADC1 Volume" value="20" />
     </path>
 
     <path name="speaker-mic-bak">
@@ -2743,7 +2743,7 @@
     </path>
 
     <path name="handset">
-        <ctl name="TFA_CHIP_SELECTOR" value="2" />
+        <ctl name="TFA_CHIP_SELECTOR" value="1" />
         <ctl name="TFA Profile" value="receiver" />
     </path>
 
@@ -2932,7 +2932,7 @@
         <ctl name="TX_AIF2_CAP Mixer DEC0" value="1" />
         <ctl name="ADC2_MIXER Switch" value="1" />
         <ctl name="ADC2 MUX" value="INP2" />
-        <ctl name="ADC2 Volume" value="10" />
+        <ctl name="ADC2 Volume" value="20" />
         <ctl name="TX_DEC0 Volume" value="87" />
     </path>
 
@@ -3315,7 +3315,7 @@
         <ctl name="TX SMIC MUX1" value="ADC0" />
         <ctl name="TX_AIF1_CAP Mixer DEC1" value="1" />
         <ctl name="ADC1_MIXER Switch" value="1" />
-        <ctl name="ADC1 Volume" value="8" />
+        <ctl name="ADC1 Volume" value="20" />
     </path>
 
     <path name="handset-dmic-endfire-qrd">
@@ -3501,7 +3501,7 @@
         <ctl name="TX SMIC MUX1" value="ADC0" />
         <ctl name="TX_AIF1_CAP Mixer DEC1" value="1" />
         <ctl name="ADC1_MIXER Switch" value="1" />
-        <ctl name="ADC1 Volume" value="8" />
+        <ctl name="ADC1 Volume" value="20" />
     </path>
 
     <path name="speaker-stereo-dmic-ef-tmgp">
@@ -3541,7 +3541,7 @@
         <ctl name="TX SMIC MUX0" value="ADC0" />
         <ctl name="TX_AIF1_CAP Mixer DEC0" value="1" />
         <ctl name="ADC1_MIXER Switch" value="1" />
-        <ctl name="ADC1 Volume" value="10" />
+        <ctl name="ADC1 Volume" value="20" />
         <ctl name="TX DEC1 MUX" value="SWR_MIC" />
         <ctl name="TX SMIC MUX1" value="ADC3" />
         <ctl name="TX_AIF1_CAP Mixer DEC1" value="1" />
@@ -3565,7 +3565,7 @@
         <ctl name="TX SMIC MUX1" value="ADC0" />
         <ctl name="TX_AIF1_CAP Mixer DEC1" value="1" />
         <ctl name="ADC1_MIXER Switch" value="1" />
-        <ctl name="ADC1 Volume" value="8" />
+        <ctl name="ADC1 Volume" value="20" />
     </path>
 
     <!--#ifdef OPLUS_ARCH_EXTENDS-->
@@ -4583,12 +4583,12 @@
     </path>
 
     <path name="mmi-speaker-right">
-        <ctl name="TFA_CHIP_SELECTOR" value="1" />
+        <ctl name="TFA_CHIP_SELECTOR" value="2" />
         <ctl name="TFA Profile" value="speaker" />
     </path>
 
     <path name="mmi-speaker-left">
-        <ctl name="TFA_CHIP_SELECTOR" value="2" />
+        <ctl name="TFA_CHIP_SELECTOR" value="1" />
         <ctl name="TFA Profile" value="speaker" />
     </path>
 
