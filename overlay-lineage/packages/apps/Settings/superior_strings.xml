@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+ <!-- Maintainer Summary -->
+    <string name="SpOS_maintainer_summary" translatable="false">abhix202</string>
+    <string name="SpOS_maintainer_url" translatable="false">https://t.me/TheKamisatoClan</string>
+</resources>
