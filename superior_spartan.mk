@@ -40,7 +40,7 @@ SYSTEM_OPTIMIZE_JAVA := true
 SYSTEMUI_OPTIMIZE_JAVA := true
 BUILD_WITH_GAPPS := true
 USE_DUCKDUCKGO := false
-USE_ViaBrowser := false
+USE_ViaBrowser := true
 TARGET_BUILD_VIMUSIC := true
 TARGET_SUPPORTS_BLUR := true
 
