@@ -11,8 +11,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from spartan device
 $(call inherit-product, device/realme/spartan/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common aosp stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_spartan
 PRODUCT_DEVICE := spartan
@@ -36,12 +36,16 @@ WITH_GMS := true
 TARGET_INCLUDE_MATLOG := false
 TARGET_DEFAULT_ADB_ENABLED := true
 
-#Matrixx Maintainer Info
-MATRIXX_MAINTAINER := Amrutesh
-MATRIXX_CHIPSET := Snapdragon®870
-MATRIXX_BATTERY := 5000mAh
-MATRIXX_DISPLAY := 2400x1080
-EXTRA_UDFPS_ANIMATIONS := true
+#TheParasiteProject stuff
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+TARGET_INCLUDE_CARRIER_SETTINGS := true
+TARGET_INCLUDE_CAMERA_GO := false
+TARGET_SUPPORTS_LILY_EXPERIENCE := true
+TARGET_NOT_SUPPORTS_GOOGLE_BATTERY := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
